@@ -1,13 +1,10 @@
-//cheerio module for scraping
-//request module for post request
 var cheerio = require('cheerio');
 var request = require('request');
 
-//get tracking info using tracking number entry
+
 function getTrackingNumInfo(tracking_number){
   var url = 'http://seguimientoweb.correos.cl/ConEnvCorreos.aspx';
   return new Promise(function(resolve, reject){
-    //post request using form data
     request.post(url, function(err, response, body){
       var general_inputs = [];
       var general_data = [];
@@ -57,3 +54,10 @@ function getTrackingNumInfo(tracking_number){
 
 module.exports.tracking = getTrackingNumInfo;
 // samples tracking numbers:  999017326710 3072708247886
+/*
+var trcking_number = '3072708247886';
+getTrackingNumInfo(trcking_number).then(function(r){
+      console.log(r);
+    });
+
+*/
