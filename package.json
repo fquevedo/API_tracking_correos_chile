@@ -1,5 +1,5 @@
 {
-  "name": "tracking_correos_chile",
+  "name": "API Tracking Correos de Chile",
   "version": "1.0.0",
   "description": "Api Correos de Chile, get information about tracking number",
   "main": "handler.js",
