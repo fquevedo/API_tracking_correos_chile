@@ -23,11 +23,11 @@ $ git clone https://github.com/fquevedo/API_tracking_correos_chile
 $ cd API_tracking_correos_chile
 $ npm install 
 ```
-Serverless, cheerio and request module will be installed
+Serverless, cheerio and request module will be installed.
 
 #### Deploy Serverless Framework
 
-For upload updated code to AWS Lambda
+For upload updated code to AWS Lambda.
 
 ```
 $ serverless deploy
