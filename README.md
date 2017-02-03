@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * nodejs + npm [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 * AWS account [http://aws.amazon.com/](http://aws.amazon.com/)
-* Serverless config [https://serverless.com/framework/docs/providers/aws/guide/credentials/)
+* Serverless config [https://serverless.com/framework/docs/providers/aws/guide/credentials/](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
 
 #### Optional for test:
 * Postman [https://www.getpostman.com/](https://www.getpostman.com/)
@@ -22,7 +22,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 $ git clone https://github.com/fquevedo/git_tracking_correos_chile
 $ cd git_tracking_correos_chile
-$ npm install (install serverless, cheerio, request modules)
+$ npm install 
 ```
 
 #### Deploy with the Serverless Framework
