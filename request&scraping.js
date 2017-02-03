@@ -1,14 +1,19 @@
+//cheerio module for scrapping html
+//request module for post request
 var cheerio = require('cheerio');
 var request = require('request');
 
-
+// get shipment information using tracking_number
 function getTrackingNumInfo(tracking_number){
   var url = 'http://seguimientoweb.correos.cl/ConEnvCorreos.aspx';
   return new Promise(function(resolve, reject){
+    // post request using url, key and tracking number
     request.post(url, function(err, response, body){
+      
       var general_inputs = [];
       var general_data = [];
-
+      
+      //scraping body information using cheerio
       var $ = cheerio.load(body);
       
       $('table.datosgenerales').each(function(){
@@ -25,6 +30,7 @@ function getTrackingNumInfo(tracking_number){
       });
 
       $('table.tracking').each(function(){
+        
         for (var i = 0 ; $('td',this).eq(i).text().trim() != ''; i=i+3){
 
           var input = {
@@ -37,7 +43,7 @@ function getTrackingNumInfo(tracking_number){
             general_inputs.push(input);
         }
       });
-
+      //JSON format
       resolve({
         'General_info' : general_data,
         'Tracking_info' : general_inputs
@@ -51,13 +57,6 @@ function getTrackingNumInfo(tracking_number){
         });
   });
 }
-
+//export function to tracking module
 module.exports.tracking = getTrackingNumInfo;
 // samples tracking numbers:  999017326710 3072708247886
-/*
-var trcking_number = '3072708247886';
-getTrackingNumInfo(trcking_number).then(function(r){
-      console.log(r);
-    });
-
-*/
