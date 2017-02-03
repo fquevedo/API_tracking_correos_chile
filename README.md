@@ -33,7 +33,7 @@ $ serverless deploy
 
 ## Running the tests
 
-Can be tested using  https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number} with GUI plataform like Postman or browser with JSONView extension.  
+Can be tested using  https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number} through GUI plataform like Postman or browser with JSON view extension.  
 
 #### Example URL:
 https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/3072708247886
