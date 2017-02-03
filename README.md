@@ -20,20 +20,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```
 $ git clone https://github.com/fquevedo/API_tracking_correos_chile
-$ cd git_tracking_correos_chile
+$ cd API_tracking_correos_chile
 $ npm install 
 ```
+Serverless, cheerio and request module will be installed
 
 #### Deploy Serverless Framework
+
+For upload updated code to AWS Lambda
 
 ```
 $ serverless deploy
 ```
-* Serverless config [https://serverless.com/framework/docs/providers/aws/guide/credentials/](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
 
 ## Running the tests
 
-Can be tested using [https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number}](https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number}), through GUI plataform like Postman or browser with JSON viewer extension.  
+Can be tested using [https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number}](https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number}), make sure you are using a GUI plataform like Postman or browser with JSON viewer extension.  
 
 #### Example URL:
  [https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/3072708247886](https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/3072708247886)
