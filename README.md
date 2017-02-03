@@ -17,7 +17,7 @@ Optional for test:
 
 ### Installing
 
-Install via git clone
+# Install via git clone
 
 ```
 $ git clone https://github.com/fquevedo/git_tracking_correos_chile
@@ -25,7 +25,7 @@ $ cd git_tracking_correos_chile
 $ npm install (install serverless, cheerio, request modules)
 ```
 
-Deploy with the Serverless Framework
+# Deploy with the Serverless Framework
 
 ```
 $ serverless deploy
@@ -33,8 +33,9 @@ $ serverless deploy
 
 ## Running the tests
 
-Can be tested using  https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number}, to get tracking information through GUI plataform like Postman or browser with JSONView extension. 
+Can be tested using  https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number} with GUI plataform like Postman or browser with JSONView extension.  
 
+# Example URL:
 https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/3072708247886
 
 
