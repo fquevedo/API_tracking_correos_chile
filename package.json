@@ -4,7 +4,6 @@
   "description": "Api Correos de Chile, get information about tracking number",
   "main": "handler.js",
   "dependencies": {
-    "GitRepo": "git+https://<token-from-github>:x-oauth-basic@github.com/fquevedo/<GitRepo>.git",
     "cheerio": "^0.22.0",
     "request": "^2.79.0",
     "serverless": "^1.6.1"
