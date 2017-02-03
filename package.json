@@ -1,17 +1,26 @@
 {
   "name": "tracking_correos_chile",
   "version": "1.0.0",
-  "description": "Api Correos de Chile, get information about tracking number",
+  "description": "API Correos Chile, get tracking information using tracking number",
   "main": "handler.js",
   "dependencies": {
-    "GitRepo": "git+https://<token-from-github>:x-oauth-basic@github.com/fquevedo/<GitRepo>.git",
     "cheerio": "^0.22.0",
     "request": "^2.79.0",
     "serverless": "^1.6.1"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm-git install"
+  },
+  "gitDependencies": {
+    "private-package-name": "git@private.git.server:fquevedo/git_tracking_correos_chile#revision",
+    "public-package-name": "https://github.com/user/repo.git#revision"
+  }
+
+  ,
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "repository": {
     "type": "git",
