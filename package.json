@@ -14,20 +14,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fquevedo/Tracking_correos_chile.git"
+    "url": "git+https://github.com/fquevedo/API_tracking_correos_chile.git"
   },
   "keywords": [
     "API",
     "Tracking",
-    "information",
+    "Shipment information",
     "Correos",
-    "de",
     "Chile"
   ],
   "author": "Fernando Quevedo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fquevedo/Tracking_correos_chile/issues"
+    "url": "https://github.com/fquevedo/API_tracking_correos_chile/issues"
   },
-  "homepage": "https://github.com/fquevedo/Tracking_correos_chile#readme"
+  "homepage": "https://github.com/fquevedo/API_tracking_correos_chile#readme"
 }
