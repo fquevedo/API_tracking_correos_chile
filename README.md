@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 * AWS account [http://aws.amazon.com/](http://aws.amazon.com/)
 * Serverless config [https://serverless.com/framework/docs/providers/aws/guide/credentials/)
 
-Optional for test:
+#### Optional for test:
 * Postman [https://www.getpostman.com/](https://www.getpostman.com/)
 
 ### Installing
