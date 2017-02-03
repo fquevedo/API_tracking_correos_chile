@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 #### Optional for test:
 * Postman [https://www.getpostman.com/](https://www.getpostman.com/)
 
-### Installing
+### Installation
 
 #### Install via git clone
 
@@ -33,7 +33,7 @@ $ serverless deploy
 
 ## Running the tests
 
-Can be tested using [https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number}](https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number}) through GUI plataform like Postman or browser with JSON view extension.  
+Can be tested using [https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number}](https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/{Tracking_number}), through GUI plataform like Postman or browser with JSON viewer extension.  
 
 #### Example URL:
  [https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/3072708247886](https://6d84hnikkf.execute-api.us-east-1.amazonaws.com/dev/3072708247886)
