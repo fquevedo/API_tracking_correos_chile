@@ -19,7 +19,7 @@ These instructions will get you a copy of the project up and running on your loc
 #### Install via git clone
 
 ```
-$ git clone https://github.com/fquevedo/git_tracking_correos_chile
+$ git clone https://github.com/fquevedo/API_tracking_correos_chile
 $ cd git_tracking_correos_chile
 $ npm install 
 ```
