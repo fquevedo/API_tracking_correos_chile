@@ -17,7 +17,7 @@ Optional for test:
 
 ### Installing
 
-# Install via git clone
+#### Install via git clone
 
 ```
 $ git clone https://github.com/fquevedo/git_tracking_correos_chile
@@ -25,7 +25,7 @@ $ cd git_tracking_correos_chile
 $ npm install (install serverless, cheerio, request modules)
 ```
 
-# Deploy with the Serverless Framework
+#### Deploy with the Serverless Framework
 
 ```
 $ serverless deploy
