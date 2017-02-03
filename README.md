@@ -10,7 +10,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 * nodejs + npm [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 * AWS account [http://aws.amazon.com/](http://aws.amazon.com/)
-* Serverless config [https://serverless.com/framework/docs/providers/aws/guide/credentials/](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
 
 #### Optional for test:
 * Postman [https://www.getpostman.com/](https://www.getpostman.com/)
@@ -25,11 +24,12 @@ $ cd git_tracking_correos_chile
 $ npm install 
 ```
 
-#### Deploy with the Serverless Framework
+#### Deploy Serverless Framework
 
 ```
 $ serverless deploy
 ```
+* Serverless config [https://serverless.com/framework/docs/providers/aws/guide/credentials/](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
 
 ## Running the tests
 
