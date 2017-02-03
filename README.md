@@ -1,4 +1,4 @@
-#Tracking Correos de Chile
+#API tracking Correos de Chile
 
 Api for Correos de Chile, get shipment information using tracking number.
 
