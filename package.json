@@ -1,7 +1,7 @@
 {
   "name": "API Tracking Correos de Chile",
   "version": "1.0.0",
-  "description": "Api Correos de Chile, get information about tracking number",
+  "description": "Api for Correos de Chile, get shipment information using tracking number.",
   "main": "handler.js",
   "dependencies": {
     "cheerio": "^0.22.0",
