@@ -1,6 +1,9 @@
 #API Tracking Correos de Chile
 
-Its an Api REST for Chile Post, through a tracking number get shipping information.
+Its an Api REST for Correos de Chile, recieve a tracking number and return shipping information in JSON format
+
+Technologies: Using a free tier amazon architecture and AWS Lambda and AWS Api gateway services.
+
 
 ## Getting Started
 
