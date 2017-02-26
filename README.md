@@ -1,6 +1,6 @@
 #API Tracking Correos de Chile
 
-Api for Correos de Chile, get shipment information using tracking number.
+Its an Api REST for Correos de Chile, get the shipment information of a tracking number.
 
 ## Getting Started
 
